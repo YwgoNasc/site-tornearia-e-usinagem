@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 1px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: beige;
+    color: black;
+    font-family: sans-serif;
+}
+#menu{
+    list-style: none;
+    padding: 0px;
+    background-color: black;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: rgb(0, 78, 78);
+    transition: background .4s ;
+}
+.titulo{
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.images-initial{
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.bloco1{
+    text-align: center;
+}
+.p1{
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+}
+.bloco2{
+    text-align: center;
+}
+.p2{
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+}
+.bloco3{
+    text-align: center;
+}
+.p3{
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500px;
+}
+.maps{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
